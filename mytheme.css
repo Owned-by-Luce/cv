@@ -1,33 +1,59 @@
 body {
-    background-color: #EEF0F4;
-}
-
-.neumo-inset {
-    background: #EEF0F4;
-    border-radius: 100%;
-    box-shadow: inset 9.91px 9.91px 15px #D9DADE, inset -9.91px -9.91px 15px #FFFFFF;
+    margin: 0;
+    padding: 0;
+    background-color: #D0D8ED;
 }
 
 .neumo {
-    background: #EEF0F4;
-    border-radius: 100%;
-    box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
+    background: #D0D8ED;
+    box-shadow: 10px 10px 15px #BDC5D8, -10px -10px 15px #E3EBFF;
+    transition-duration: 0.4s;
+    color: #6A67B7;
+    text-align: center;
+}
+
+.neumo-active {
+    background: #D0D8ED;
+    box-shadow: inset 10px 10px 15px #BDC5D8, inset -10px -10px 15px #E3EBFF;
+    transition-duration: 0.4s;
+    color: #6A67B7;
+    text-align: center;
+}
+
+.neumo:hover {
+    box-shadow: inset 10px 10px 15px #BDC5D8, inset -10px -10px 15px #E3EBFF;
+}
+
+.neumo:active {
+    box-shadow: inset 10px 10px 15px #BDC5D8, inset -10px -10px 15px #E3EBFF;
+}
+
+
+.neumo-inset {
+    background: #D0D8ED;
+    box-shadow: inset 10px 10px 15px #BDC5D8, inset -10px -10px 15px #E3EBFF;
 }
 
 .neumo-concave {
-    background: linear-gradient(145deg, #FFFFFF, #C1C3C6);
-    border-radius: 100%;
-    box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
+    background: linear-gradient(145deg, #FFFFFF, #B9BECA);
+    box-shadow: 10px 10px 15px #CFD5E2, -10px -10px 15px #F9FFFF;
 }
 
 .neumo-concave-inset {
-    background: linear-gradient(145deg, #FFFFFF, #C1C3C6);
-    border-radius: 100%;
-    box-shadow: inset 9.91px 9.91px 15px #D9DADE, inset -9.91px -9.91px 15px #FFFFFF;
+    background: linear-gradient(145deg, #F7FFFF, #A9B0C1);
+    box-shadow: inset 10px 10px 15px #BDC5D8, inset -10px -10px 15px #E3EBFF;
 }
 
 button {
-    height: 150px;
-    width: 150px;
+    height: 65px;
+    width: 65px;
+    border-radius: 20px;
     border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.small {
+    height: 45px !important;
+    width: 45px !important;
 }
