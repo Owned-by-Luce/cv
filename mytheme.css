@@ -4,6 +4,15 @@ body {
     background-color: #D0D8ED;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6A67B7;
+    border-radius: 10px;
+}
+
 .neumo {
     background: #D0D8ED;
     box-shadow: 10px 10px 15px #BDC5D8, -10px -10px 15px #E3EBFF;
